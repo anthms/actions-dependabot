@@ -14,4 +14,4 @@ jobs:
       - run: |
           TIME=$(( $RANDOM % 1500 + 500 ))
           echo $TIME
-          sleep("$TIME")
+          sleep $TIME
