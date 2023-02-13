@@ -12,6 +12,6 @@ jobs:
       - uses: actions/setup-go@v1
       - uses: actions/setup-node@v1
       - run: |
-          TIME=$(( $RANDOM % 3000 + 500 ))
+          TIME=$(( $RANDOM % 180 + 60 ))
           echo $TIME
           sleep $TIME
